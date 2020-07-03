@@ -3,4 +3,4 @@
 - name: start the service
   service:
    name: apache2
-   state: started
+   state: stopped
