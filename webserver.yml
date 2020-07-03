@@ -1,0 +1,6 @@
+---
+- name: install webserver
+  hosts: webserver
+  become: yes
+  roles:
+  - {role: apacherole}
